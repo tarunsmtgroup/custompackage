@@ -1,0 +1,41 @@
+{
+    "name": "tarunsmtgroup/custompackage",
+    "description": "A description for custompackage.",
+    "type": "package",
+    "license": "MIT",
+    "keywords": [
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Tarun",
+            "email": "tarunsmtgroup@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tarunsmtgroup\\Custompackage\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tarunsmtgroup\\Custompackage\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tarunsmtgroup\\Custompackage\\CustompackageServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    }
+}
