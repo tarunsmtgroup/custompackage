@@ -8,8 +8,7 @@
 `composer require tarunsmtgroup/custompackage`
 
 ## Usage
-Write a few lines about the usage of this package.
-
+Boilerplate package laravel
 ## Testing
 Run the tests with:
 
